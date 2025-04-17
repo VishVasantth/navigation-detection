@@ -1490,6 +1490,8 @@ function App() {
           return true;
         }
       }
+
+      continueSimulationFromObstacle();
       
       // If no alternative paths are available, then create a new route from the current position
       console.log("No viable existing alternatives found, requesting new route from obstacle point to destination...");
